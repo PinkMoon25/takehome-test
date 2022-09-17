@@ -1,0 +1,14 @@
+.div-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    gap: 8px;
+}
+
+.divs{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: lightgreen;
+}
